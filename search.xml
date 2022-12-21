@@ -1,235 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 6.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
-  </script>
-
-  <meta name="description" content="給自己的生賀 真的很久以前寫的 為了測試網頁發出來（依舊是文不對題系列">
-<meta property="og:type" content="article">
-<meta property="og:title" content="vanilla vanishing">
-<meta property="og:url" content="http://example.com/2022/12/17/vanilla-vanishing/index.html">
-<meta property="og:site_name" content="Vol de Nuit">
-<meta property="og:description" content="給自己的生賀 真的很久以前寫的 為了測試網頁發出來（依舊是文不對題系列">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-12-17T01:56:07.000Z">
-<meta property="article:modified_time" content="2022-12-17T02:13:29.378Z">
-<meta property="article:author" content="Hestaria">
-<meta property="article:tag" content="仏英">
-<meta property="article:tag" content="測試短打">
-<meta name="twitter:card" content="summary">
-
-<link rel="canonical" href="http://example.com/2022/12/17/vanilla-vanishing/">
-
-
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : true,
-    lang   : 'en'
-  };
-</script>
-
-  <title>vanilla vanishing | Vol de Nuit</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Vol de Nuit</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-      <p class="site-subtitle" itemprop="description">長夜飛逝</p>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-        <i class="fa fa-search fa-fw fa-lg"></i>
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
-
-  </li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
-        </a>
-      </li>
-  </ul>
-</nav>
-
-
-
-  <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
-           placeholder="Searching..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div id="search-result">
-  <div id="no-result">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content post posts-expand">
-            
-
-    
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/12/17/vanilla-vanishing/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Hestaria">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Vol de Nuit">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          vanilla vanishing
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2022-12-17 09:56:07 / Modified: 10:13:29" itemprop="dateCreated datePublished" datetime="2022-12-17T09:56:07+08:00">2022-12-17</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-        <blockquote>
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>GO TO HELL</title>
+    <url>/2022/12/11/GO-TO-HELL/</url>
+    <content><![CDATA[<p>我真的沒話說了……</p>
+<p>hexo真的太難搞了啊……</p>
+<hr>
+<p>{你是否聽到了孩子們的悲鳴}</p>
+<hr>
+<p>不过编辑啊什么的用起来的确比老坟头要爽多了（笃定</p>
+]]></content>
+      <tags>
+        <tag>救命.jpg</tag>
+        <tag>廢話</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vanilla vanishing</title>
+    <url>/2022/12/17/vanilla-vanishing/</url>
+    <content><![CDATA[<blockquote>
 <p>給自己的生賀 真的很久以前寫的</p>
 <p>為了測試網頁發出來（依舊是文不對題系列</p>
 </blockquote>
@@ -433,205 +222,25 @@
 <p>稍微解释一下吧：<br>这篇文章是写给我自己的生日贺文（算是）所以不可避免的带上了我个人的癖好。其次 由于水平有限而且时间不多所以有很多没能传达到的地方请多多包容。<br>可以看出来的是第一人称视角都是不可靠的，亚瑟的开篇第一人称就隐去了很多，举个例子就是他到巴黎的原因。这一部分的灵感来源于《长日将尽》。<br>还有一点就是所谓的爱情，我没有点到亚瑟和弗朗西斯到底是否相爱甚至是相爱过。但 各取所需吧。<br>一直换视角也很累，（写的累看的也累）我本来也不想这么写（第一人称一镜到底），但因为水平有限感觉自己写不清楚就<br>写的时间跨度很大，有一个多月了所以逻辑上请多多包容<br>哦还有——<br>祝我生日快乐XD</p>
 <p>Thx!</p>
 </blockquote>
-
-    </div>
-
-    
-    
-    
-
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E4%BB%8F%E8%8B%B1/" rel="tag"># 仏英</a>
-              <a href="/tags/%E6%B8%AC%E8%A9%A6%E7%9F%AD%E6%89%93/" rel="tag"># 測試短打</a>
-          </div>
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2022/12/11/GO-TO-HELL/" rel="prev" title="GO TO HELL">
-      <i class="fa fa-chevron-left"></i> GO TO HELL
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/12/21/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%82%B2%E4%BC%A4%E7%9A%84%E6%95%85%E4%BA%8B/" rel="next" title="这是一个悲伤的故事">
-      这是一个悲伤的故事 <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
-  </article>
-  
-  
-  
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">Hestaria</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives">
-          <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">categories</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">4</span>
-        <span class="site-state-item-name">tags</span></a>
-      </div>
-  </nav>
-</div>
-
-
-
-      </div>
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Hestaria</span>
-</div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
-  </div>
-
-        
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-  
-<script src="/js/local-search.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-</body>
-</html>
+]]></content>
+      <tags>
+        <tag>仏英</tag>
+        <tag>測試短打</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>这是一个悲伤的故事</title>
+    <url>/2022/12/21/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%82%B2%E4%BC%A4%E7%9A%84%E6%95%85%E4%BA%8B/</url>
+    <content><![CDATA[<p>这是一个悲伤的故事<br>关于没有人能逃出羊圈这件事<br>现在坐等发骚（乐</p>
+<p><escape><span id="more"></span><escape></p>
+<p>这是一个悲伤的故事（虽然不完全是）</p>
+<p>我们学校一共两个年级，四个班，两百多号人。我是903的（乐）<br>上周一就听说八年级有人阳了（801，但因为周末羊的就没有拉去隔离）<br>上周二第一次核酸<br>上周三第一次出现病例。混管阳性，一班就快乐的离开了（大概是同学被家人传染，最终一个班有六个人阳了）<br>上周五做核酸<br>周末听说二班也有人阳了（后来知道这次核酸做出来八年级的一班和三班也混管阳性，904也混管阳性）很多学校都停课&#x2F;线上教学，但是我们貌似没有如此的关照。<br>这周一到校，一共四个班。802, 804，我们年级已经隔离完的一班（虽然只到了一点点的人，因为上学要核酸阴性证明（那时候的政策）然后很多人报告未出或者混管阳性）和我们班。二班班主任（我们的社会老师也掉入羊圈了）做核酸。同时期末考延期到下学期。<br>这周二学校只剩下了我们班和一班。八年级两个班都因为有人发烧居家了（甚至都没有等到核酸结果出来）。我们班的核酸结果也一直未出，下午报告出来我们班有一管的人喜气洋洋了（因为当初是分两管做的，此外我挑的那一管是阴的（乐））。周二我们班人也到的不多，二十七个人，五个人请假，两个人因为身体不适中午离开（人啊……是前所未有的少）下午知道我们班主任昨天发烧，也咩咩叫了……再下午通知明天线上教学了……截止日期未知</p>
+]]></content>
+      <categories>
+        <category>廢話</category>
+      </categories>
+      <tags>
+        <tag>廢話</tag>
+      </tags>
+  </entry>
+</search>
